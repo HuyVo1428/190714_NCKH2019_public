@@ -1,0 +1,907 @@
+2019-06-14 08:42:46,707 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Spawn attempt 0 
+2019-06-14 08:42:47,682 - MainProcess[MainThread] - deploy_firefox       - DEBUG   : BROWSER 1: OpenWPM Firefox extension loaded
+2019-06-14 08:42:51,726 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:42:52,112 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476567814	geckodriver	INFO	Listening on 127.0.0.1:58751
+2019-06-14 08:42:52,113 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476569017	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3r9MqAv2Ryd8
+2019-06-14 08:42:52,113 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476569052	geckodriver::marionette	INFO	Starting browser /home/huyvo/Documents/openwpm/firefox-bin/firefox-bin with args []
+2019-06-14 08:42:52,114 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476569071	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36047
+2019-06-14 08:42:52,114 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571416	addons.manager	DEBUG	Application has been upgraded
+2019-06-14 08:42:52,114 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571514	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+2019-06-14 08:42:52,114 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571518	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+2019-06-14 08:42:52,115 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571530	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+2019-06-14 08:42:52,115 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571534	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+2019-06-14 08:42:52,115 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571536	addons.manager	DEBUG	Starting provider: XPIProvider
+2019-06-14 08:42:52,115 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571542	addons.xpi	DEBUG	startup
+2019-06-14 08:42:52,116 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571544	addons.xpi	INFO	Mapping @openwpm to /tmp/rust_mozprofile.3r9MqAv2Ryd8/extensions/@openwpm
+2019-06-14 08:42:52,116 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571544	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2019-06-14 08:42:52,116 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571546	addons.xpi	INFO	Mapping aushelper@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:42:52,116 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571546	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:42:52,116 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571548	addons.xpi	INFO	Mapping webcompat@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:42:52,117 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571548	addons.xpi	INFO	Mapping firefox@getpocket.com to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:42:52,117 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571550	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+2019-06-14 08:42:52,117 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571554	addons.xpi	DEBUG	checkForChanges
+2019-06-14 08:42:52,117 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571556	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2019-06-14 08:42:52,117 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571558	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+2019-06-14 08:42:52,118 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571558	addons.xpi	DEBUG	New add-on @openwpm in app-profile
+2019-06-14 08:42:52,118 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571560	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2019-06-14 08:42:52,118 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571562	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+2019-06-14 08:42:52,118 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571562	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2019-06-14 08:42:52,118 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571564	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+2019-06-14 08:42:52,119 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571564	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2019-06-14 08:42:52,119 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571564	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+2019-06-14 08:42:52,125 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571568	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2019-06-14 08:42:52,127 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571572	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+2019-06-14 08:42:52,127 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571574	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2019-06-14 08:42:52,127 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571574	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+2019-06-14 08:42:52,128 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571576	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2019-06-14 08:42:52,128 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571576	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"@openwpm":{"d":"/tmp/rust_mozprofile.3r9MqAv2Ryd8/extensions/@openwpm","st":1560476569000,"mt":1560476569000}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi","st":1558299443000},"e10srollout@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","st":1558299443000},"webcompat@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi","st":1558299443000},"firefox@getpocket.com":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi","st":1558299443000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1558299443000}}}
+2019-06-14 08:42:52,128 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571598	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.3r9MqAv2Ryd8/extensions.json
+2019-06-14 08:42:52,128 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571600	addons.xpi-utils	DEBUG	New add-on @openwpm installed in app-profile
+2019-06-14 08:42:52,129 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+2019-06-14 08:42:52,129 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571640	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,129 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571640	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+2019-06-14 08:42:52,129 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571656	DeferredSave.extensions.json	DEBUG	Starting timer
+2019-06-14 08:42:52,130 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571664	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,130 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571666	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+2019-06-14 08:42:52,130 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571674	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,130 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571678	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+2019-06-14 08:42:52,130 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571702	DeferredSave.extensions.json	DEBUG	Starting write
+2019-06-14 08:42:52,131 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571732	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,131 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571732	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+2019-06-14 08:42:52,131 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571732	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+2019-06-14 08:42:52,131 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571758	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,132 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571758	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+2019-06-14 08:42:52,132 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571768	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,132 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571768	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2019-06-14 08:42:52,132 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571768	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2019-06-14 08:42:52,132 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476571786	addons.xpi	DEBUG	Loading bootstrap scope from /tmp/rust_mozprofile.3r9MqAv2Ryd8/extensions/@openwpm
+2019-06-14 08:42:52,133 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572032	addons.xpi	DEBUG	Calling bootstrap method install on @openwpm version 0.0.1
+2019-06-14 08:42:52,133 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572034	addons.xpi-utils	DEBUG	Make addon app-profile:@openwpm visible
+2019-06-14 08:42:52,133 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572060	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:42:52,145 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572060	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,146 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572068	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+2019-06-14 08:42:52,146 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572068	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:42:52,146 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572084	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+2019-06-14 08:42:52,146 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572084	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+2019-06-14 08:42:52,147 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572084	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:42:52,147 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572084	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,147 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572084	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+2019-06-14 08:42:52,147 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572086	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:42:52,147 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572094	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.10
+2019-06-14 08:42:52,157 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572094	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:42:52,159 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572096	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:42:52,160 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572102	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+2019-06-14 08:42:52,160 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572102	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:42:52,160 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572102	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,160 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572102	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+2019-06-14 08:42:52,161 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572104	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:42:52,161 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572110	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+2019-06-14 08:42:52,161 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572110	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+2019-06-14 08:42:52,161 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572110	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:42:52,161 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572110	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,161 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572112	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+2019-06-14 08:42:52,233 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572112	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:42:52,233 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572134	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+2019-06-14 08:42:52,233 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572134	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+2019-06-14 08:42:52,233 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572142	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:42:52,233 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572152	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,235 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572152	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+2019-06-14 08:42:52,240 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572152	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:42:52,240 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572152	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,241 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572152	addons.xpi	DEBUG	Updating XPIState for {"id":"@openwpm","syncGUID":"{0b2383df-49ed-441b-8e62-49a5f524a7c2}","location":"app-profile","version":"0.0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"openwpm","description":"Extension with socket interface into OpenWPM","creator":"Steven Englehardt","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/rust_mozprofile.3r9MqAv2Ryd8/extensions/@openwpm","installDate":1560476569000,"updateDate":1560476569000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":84527,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:42:52,241 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572162	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2019-06-14 08:42:52,241 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572168	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{fae2f43e-8f19-4400-b842-602cd4f42ce9}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:42:52,241 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572168	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2019-06-14 08:42:52,241 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572168	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{4e019f43-3bb6-4f27-838d-5c8a95d1b7f0}","location":"app-system-defaults","version":"1.10","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8145,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:42:52,242 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572168	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2019-06-14 08:42:52,242 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572170	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{d594cfb6-9d50-40dc-9fa1-77f6aefa4db7}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:42:52,242 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572170	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2019-06-14 08:42:52,242 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572172	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{8d4be6b5-717e-44c3-81d0-4a1aefc716b8}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:42:52,242 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572172	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2019-06-14 08:42:52,242 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572172	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{2e962b92-f9bc-43b2-b793-5fce701c2686}","location":"app-global","version":"52.9.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.9.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+2019-06-14 08:42:52,243 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572172	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2019-06-14 08:42:52,243 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572172	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:42:52,243 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572172	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:42:52,243 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572174	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+2019-06-14 08:42:52,243 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572174	addons.xpi-utils	DEBUG	Updating add-on states
+2019-06-14 08:42:52,244 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572176	addons.xpi-utils	DEBUG	Writing add-ons list
+2019-06-14 08:42:52,244 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572180	addons.xpi	DEBUG	Registering manifest for /tmp/rust_mozprofile.3r9MqAv2Ryd8/extensions/@openwpm
+2019-06-14 08:42:52,244 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572184	addons.xpi	DEBUG	Calling bootstrap method startup on @openwpm version 0.0.1
+2019-06-14 08:42:52,252 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572212	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:42:52,252 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572214	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+2019-06-14 08:42:52,252 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572216	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:42:52,253 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572216	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+2019-06-14 08:42:52,254 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572216	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:42:52,258 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572222	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+2019-06-14 08:42:52,258 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572224	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:42:52,258 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572224	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+2019-06-14 08:42:52,258 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572230	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+2019-06-14 08:42:52,258 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572230	addons.manager	DEBUG	Provider finished startup: XPIProvider
+2019-06-14 08:42:52,259 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572230	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+2019-06-14 08:42:52,259 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572230	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+2019-06-14 08:42:52,259 - MainProcess[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1560476572232	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+2019-06-14 08:42:56,748 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:43:01,763 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:43:03,897 - MainProcess[MainThread] - FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2019-06-14 08:43:04,520 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Looking for extension port information in /tmp/rust_mozprofile.3r9MqAv2Ryd8/
+2019-06-14 08:43:04,520 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Connecting to extension on port 33663
+2019-06-14 08:43:04,521 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: BrowserManager ready.
+2019-06-14 08:43:04,523 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Browser spawn sucessful!
+2019-06-14 08:43:06,771 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:43:08,550 - MainProcess[MainThread] - TaskManager          - INFO    : 
+
+OpenWPM Version: v0.8.0-273-g69c773b
+Firefox Version: 52.9.0
+
+========== Manager Configuration ==========
+{
+  "aggregator_address": [
+    "127.0.0.1",
+    58475
+  ],
+  "data_directory": "../database/requestdata3/",
+  "database_name": "../database/requestdata3/crawl-data.sqlite",
+  "failure_limit": null,
+  "log_directory": "../database/requestdata3/",
+  "log_file": "../database/requestdata3/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    51015
+  ],
+  "num_browsers": 1,
+  "output_format": "local",
+  "screenshot_path": "../database/requestdata3/screenshots",
+  "source_dump_path": "../database/requestdata3/sources",
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "crawl_id": 0,
+  "adblock-plus": 1,
+  "bot_mitigation": 2,
+  "browser": 3,
+  "cookie_instrument": 4,
+  "disable_flash": 5,
+  "disconnect": 6,
+  "donottrack": 7,
+  "extension_enabled": 8,
+  "ghostery": 9,
+  "headless": 10,
+  "http_instrument": 11,
+  "https-everywhere": 12,
+  "js_instrument": 13,
+  "prefs": 14,
+  "random_attributes": 15,
+  "save_all_content": 16,
+  "save_javascript": 17,
+  "tp_cookies": 18,
+  "tracking-protection": 19,
+  "ublock-origin": 20
+}
+
+  0  1      2      3        4      5      6      7      8     9      10    11    12     13     14    15     16     17     18      19     20
+---  -----  -----  -------  -----  -----  -----  -----  ----  -----  ----  ----  -----  -----  ----  -----  -----  -----  ------  -----  -----
+  1  False  False  firefox  False  False  False  False  True  False  True  True  False  False  {}    False  False  False  always  False  False
+
+========== Input profile tar files ==========
+  No profile tar files specified
+
+========== Output (archive) profile dirs ==========
+  No profile archive directories specified
+
+
+2019-06-14 08:43:08,555 - MainProcess[MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2019-06-14 08:43:08,658 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Joining command thread
+2019-06-14 08:43:08,660 - MainProcess[MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('GET', 'http://wunmanchishome.com\n', 0, 1)
+2019-06-14 08:43:10,208 - MainProcess[MainThread] - BrowserManager       - INFO    : BROWSER 1: Crash in driver, restarting browser manager 
+ Traceback (most recent call last):
+  File "/home/huyvo/Documents/openwpm/automation/BrowserManager.py", line 407, in BrowserManager
+    browser_params, manager_params, extension_socket)
+  File "/home/huyvo/Documents/openwpm/automation/Commands/command_executor.py", line 15, in execute_command
+    extension_socket=extension_socket)
+  File "/home/huyvo/Documents/openwpm/automation/Commands/browser_commands.py", line 116, in get_website
+    tab_restart_browser(webdriver)
+  File "/home/huyvo/Documents/openwpm/automation/Commands/browser_commands.py", line 90, in tab_restart_browser
+    close_other_windows(webdriver)
+  File "/home/huyvo/Documents/openwpm/automation/Commands/browser_commands.py", line 72, in close_other_windows
+    main_handle = webdriver.current_window_handle
+  File "/home/huyvo/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 616, in current_window_handle
+    return self.execute(Command.W3C_GET_CURRENT_WINDOW_HANDLE)['value']
+  File "/home/huyvo/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/huyvo/.local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: Failed to decode response from marionette
+
+
+2019-06-14 08:43:10,211 - MainProcess[Thread-2  ] - TaskManager          - INFO    : BROWSER 1: Received failure status while executing command: GET
+2019-06-14 08:43:10,214 - MainProcess[Thread-2  ] - TaskManager          - DEBUG   : BROWSER 1: Browser restart required
+2019-06-14 08:43:12,260 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: 3.601507 seconds to join command thread
+2019-06-14 08:43:12,262 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Killing browser manager...
+2019-06-14 08:43:12,265 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Attempting to kill BrowserManager with pid 2471. Display PID: 2483 | Display Port: 1005 | Browser PID: 2497
+2019-06-14 08:43:12,267 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Display process does not exit
+2019-06-14 08:43:12,269 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Screen lockfile (/tmp/.X1005-lock) already removed
+2019-06-14 08:43:12,307 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Geckodriver process already killed.
+2019-06-14 08:43:12,308 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: during_init=False | profile_archive_dir=None
+2019-06-14 08:43:12,312 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Sending the shutdown signal to the LocalAggregator listener process...
+2019-06-14 08:43:12,545 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:43:12,546 - MainProcess[MainThread] - BaseAggregator       - INFO    : Received shutdown signal!
+2019-06-14 08:43:15,657 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : LocalAggregator took 3.34348702431 seconds to close.
+2019-06-14 08:45:29,364 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: Spawn attempt 0 
+2019-06-14 08:45:29,685 - MainProcess[MainThread] - deploy_firefox       - DEBUG   : BROWSER 2: OpenWPM Firefox extension loaded
+2019-06-14 08:45:33,814 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476729759	geckodriver	INFO	Listening on 127.0.0.1:60595
+2019-06-14 08:45:33,815 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476731451	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.0JsHXhmYPuhz
+2019-06-14 08:45:33,815 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476731455	geckodriver::marionette	INFO	Starting browser /home/huyvo/Documents/openwpm/firefox-bin/firefox-bin with args []
+2019-06-14 08:45:33,815 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476731460	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39295
+2019-06-14 08:45:33,815 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733062	addons.manager	DEBUG	Application has been upgraded
+2019-06-14 08:45:33,815 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733194	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+2019-06-14 08:45:33,815 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733210	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+2019-06-14 08:45:33,816 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733234	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+2019-06-14 08:45:33,816 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733244	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+2019-06-14 08:45:33,816 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733248	addons.manager	DEBUG	Starting provider: XPIProvider
+2019-06-14 08:45:33,816 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733250	addons.xpi	DEBUG	startup
+2019-06-14 08:45:33,816 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733252	addons.xpi	INFO	Mapping @openwpm to /tmp/rust_mozprofile.0JsHXhmYPuhz/extensions/@openwpm
+2019-06-14 08:45:33,816 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733252	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2019-06-14 08:45:33,816 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733256	addons.xpi	INFO	Mapping aushelper@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:45:33,817 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733258	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:45:33,817 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733258	addons.xpi	INFO	Mapping webcompat@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:45:33,817 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733260	addons.xpi	INFO	Mapping firefox@getpocket.com to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:45:33,817 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733262	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+2019-06-14 08:45:33,817 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733264	addons.xpi	DEBUG	checkForChanges
+2019-06-14 08:45:33,817 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733266	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2019-06-14 08:45:33,817 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733266	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+2019-06-14 08:45:33,818 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733268	addons.xpi	DEBUG	New add-on @openwpm in app-profile
+2019-06-14 08:45:33,818 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733272	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2019-06-14 08:45:33,818 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733276	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+2019-06-14 08:45:33,818 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733276	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2019-06-14 08:45:33,818 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733278	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+2019-06-14 08:45:33,818 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733278	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2019-06-14 08:45:33,818 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733280	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+2019-06-14 08:45:33,819 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733280	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2019-06-14 08:45:33,819 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733280	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+2019-06-14 08:45:33,819 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733282	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2019-06-14 08:45:33,819 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733282	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+2019-06-14 08:45:33,819 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733282	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2019-06-14 08:45:33,819 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733282	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"@openwpm":{"d":"/tmp/rust_mozprofile.0JsHXhmYPuhz/extensions/@openwpm","st":1560476731000,"mt":1560476731000}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi","st":1558299443000},"e10srollout@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","st":1558299443000},"webcompat@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi","st":1558299443000},"firefox@getpocket.com":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi","st":1558299443000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1558299443000}}}
+2019-06-14 08:45:33,820 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733298	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.0JsHXhmYPuhz/extensions.json
+2019-06-14 08:45:33,820 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733300	addons.xpi-utils	DEBUG	New add-on @openwpm installed in app-profile
+2019-06-14 08:45:33,820 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+2019-06-14 08:45:33,820 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733326	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,820 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733328	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+2019-06-14 08:45:33,820 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733334	DeferredSave.extensions.json	DEBUG	Starting timer
+2019-06-14 08:45:33,820 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733338	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,821 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733338	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+2019-06-14 08:45:33,821 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733348	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,838 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733388	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+2019-06-14 08:45:33,838 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733420	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,838 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733420	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+2019-06-14 08:45:33,838 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733458	DeferredSave.extensions.json	DEBUG	Starting write
+2019-06-14 08:45:33,839 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733466	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,846 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733466	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+2019-06-14 08:45:33,847 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733466	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+2019-06-14 08:45:33,847 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733472	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,847 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733474	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2019-06-14 08:45:33,847 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733474	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2019-06-14 08:45:33,847 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733490	addons.xpi	DEBUG	Loading bootstrap scope from /tmp/rust_mozprofile.0JsHXhmYPuhz/extensions/@openwpm
+2019-06-14 08:45:33,847 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733782	addons.xpi	DEBUG	Calling bootstrap method install on @openwpm version 0.0.1
+2019-06-14 08:45:33,847 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733782	addons.xpi-utils	DEBUG	Make addon app-profile:@openwpm visible
+2019-06-14 08:45:33,848 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733792	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:45:33,848 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733792	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,848 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733792	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+2019-06-14 08:45:33,848 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733792	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:45:33,848 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733796	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+2019-06-14 08:45:33,848 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733798	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+2019-06-14 08:45:33,848 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733798	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:45:33,849 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733798	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,849 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733798	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+2019-06-14 08:45:33,849 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733800	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:45:33,849 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733804	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.10
+2019-06-14 08:45:33,849 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733804	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:45:33,849 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733806	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:45:33,849 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733806	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+2019-06-14 08:45:33,849 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733808	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:45:33,850 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733808	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,850 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733808	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+2019-06-14 08:45:33,850 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733808	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:45:33,850 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733812	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+2019-06-14 08:45:33,850 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733812	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+2019-06-14 08:45:33,850 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733812	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:45:33,850 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733812	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,850 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733812	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+2019-06-14 08:45:33,950 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733814	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:45:33,950 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733824	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+2019-06-14 08:45:33,951 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733824	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+2019-06-14 08:45:33,951 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733826	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:45:33,952 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733826	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,952 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733826	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+2019-06-14 08:45:33,952 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733826	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:45:33,953 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733826	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,953 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733826	addons.xpi	DEBUG	Updating XPIState for {"id":"@openwpm","syncGUID":"{1c9d9767-ce03-47da-816c-1b24fafc277b}","location":"app-profile","version":"0.0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"openwpm","description":"Extension with socket interface into OpenWPM","creator":"Steven Englehardt","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/rust_mozprofile.0JsHXhmYPuhz/extensions/@openwpm","installDate":1560476731000,"updateDate":1560476731000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":84527,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:45:33,953 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733826	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2019-06-14 08:45:33,953 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733828	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{cb59a1fe-a998-4a54-bae9-630009df735e}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:45:33,955 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733828	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2019-06-14 08:45:33,955 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733828	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{4c97fdbb-a28e-43ab-993b-d2a7b588283b}","location":"app-system-defaults","version":"1.10","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8145,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:45:33,955 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733828	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2019-06-14 08:45:33,956 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733828	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{235a9d64-917f-4ae2-bfd8-b70514bb65db}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:45:33,956 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733828	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2019-06-14 08:45:33,956 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733830	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{83811b63-b86f-4a7d-803d-1303ef8adc77}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:45:33,956 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733830	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2019-06-14 08:45:33,957 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733830	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{ee4793b9-362c-4042-910d-9e41d790364b}","location":"app-global","version":"52.9.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.9.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+2019-06-14 08:45:33,957 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733830	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2019-06-14 08:45:33,957 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733832	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:45:33,958 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733832	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:45:33,958 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733832	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+2019-06-14 08:45:33,958 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733832	addons.xpi-utils	DEBUG	Updating add-on states
+2019-06-14 08:45:33,958 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733832	addons.xpi-utils	DEBUG	Writing add-ons list
+2019-06-14 08:45:33,958 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733834	addons.xpi	DEBUG	Registering manifest for /tmp/rust_mozprofile.0JsHXhmYPuhz/extensions/@openwpm
+2019-06-14 08:45:33,959 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733836	addons.xpi	DEBUG	Calling bootstrap method startup on @openwpm version 0.0.1
+2019-06-14 08:45:33,959 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733846	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:45:33,959 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733848	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+2019-06-14 08:45:33,959 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733850	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:45:33,960 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733850	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+2019-06-14 08:45:33,960 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733856	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:45:33,960 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733858	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+2019-06-14 08:45:33,960 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733858	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:45:33,961 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733866	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+2019-06-14 08:45:33,961 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733870	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+2019-06-14 08:45:33,961 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733934	addons.manager	DEBUG	Provider finished startup: XPIProvider
+2019-06-14 08:45:33,961 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733936	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+2019-06-14 08:45:33,962 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733936	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+2019-06-14 08:45:33,962 - MainProcess[log-interceptor-2] - selenium_firefox     - DEBUG   : BROWSER 2: driver: 1560476733938	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+2019-06-14 08:45:34,419 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:45:39,509 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:46:40,149 - MainProcess[MainThread] - FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2019-06-14 08:45:44,527 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:45:45,368 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: Looking for extension port information in /tmp/rust_mozprofile.0JsHXhmYPuhz/
+2019-06-14 08:45:45,368 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: Connecting to extension on port 36699
+2019-06-14 08:45:45,369 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: BrowserManager ready.
+2019-06-14 08:45:45,373 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: Browser spawn sucessful!
+2019-06-14 08:45:49,308 - MainProcess[MainThread] - TaskManager          - INFO    : 
+
+OpenWPM Version: v0.8.0-273-g69c773b
+Firefox Version: 52.9.0
+
+========== Manager Configuration ==========
+{
+  "aggregator_address": [
+    "127.0.0.1",
+    40689
+  ],
+  "data_directory": "../database/requestdata3/",
+  "database_name": "../database/requestdata3/crawl-data.sqlite",
+  "failure_limit": null,
+  "log_directory": "../database/requestdata3/",
+  "log_file": "../database/requestdata3/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    38751
+  ],
+  "num_browsers": 1,
+  "output_format": "local",
+  "screenshot_path": "../database/requestdata3/screenshots",
+  "source_dump_path": "../database/requestdata3/sources",
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "crawl_id": 0,
+  "adblock-plus": 1,
+  "bot_mitigation": 2,
+  "browser": 3,
+  "cookie_instrument": 4,
+  "disable_flash": 5,
+  "disconnect": 6,
+  "donottrack": 7,
+  "extension_enabled": 8,
+  "ghostery": 9,
+  "headless": 10,
+  "http_instrument": 11,
+  "https-everywhere": 12,
+  "js_instrument": 13,
+  "prefs": 14,
+  "random_attributes": 15,
+  "save_all_content": 16,
+  "save_javascript": 17,
+  "tp_cookies": 18,
+  "tracking-protection": 19,
+  "ublock-origin": 20
+}
+
+  0  1      2      3        4      5      6      7      8     9      10    11    12     13     14    15     16     17     18      19     20
+---  -----  -----  -------  -----  -----  -----  -----  ----  -----  ----  ----  -----  -----  ----  -----  -----  -----  ------  -----  -----
+  2  False  False  firefox  False  False  False  False  True  False  True  True  False  False  {}    False  False  False  always  False  False
+
+========== Input profile tar files ==========
+  No profile tar files specified
+
+========== Output (archive) profile dirs ==========
+  No profile archive directories specified
+
+
+2019-06-14 08:45:49,311 - MainProcess[MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2019-06-14 08:45:49,416 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: Joining command thread
+2019-06-14 08:45:49,423 - MainProcess[MainThread] - BrowserManager       - INFO    : BROWSER 2: EXECUTING COMMAND: ('GET', 'http://wunmanchishome.com\n', 0, 2)
+2019-06-14 08:45:49,534 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 1
+2019-06-14 08:46:40,153 - MainProcess[MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 2
+2019-06-14 08:45:54,887 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:45:59,903 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:46:04,916 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:46:09,930 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:46:14,942 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:46:19,960 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:46:24,974 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:46:29,989 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:46:30,827 - MainProcess[MainThread] - BrowserManager       - INFO    : BROWSER 2: Crash in driver, restarting browser manager 
+ Traceback (most recent call last):
+  File "/home/huyvo/Documents/openwpm/automation/BrowserManager.py", line 407, in BrowserManager
+    browser_params, manager_params, extension_socket)
+  File "/home/huyvo/Documents/openwpm/automation/Commands/command_executor.py", line 15, in execute_command
+    extension_socket=extension_socket)
+  File "/home/huyvo/Documents/openwpm/automation/Commands/browser_commands.py", line 123, in get_website
+    webdriver.get(url)
+  File "/home/huyvo/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/huyvo/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/huyvo/.local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=http%3A//wunmanchishome.com/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20find%20the%20server%20at%20wunmanchishome.com.
+
+
+2019-06-14 08:46:30,833 - MainProcess[Thread-2  ] - TaskManager          - INFO    : BROWSER 2: Received failure status while executing command: GET
+2019-06-14 08:46:30,839 - MainProcess[Thread-2  ] - TaskManager          - DEBUG   : BROWSER 2: Browser restart required
+2019-06-14 08:46:32,883 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: 43.466532 seconds to join command thread
+2019-06-14 08:46:32,884 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: Killing browser manager...
+2019-06-14 08:46:32,885 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: Attempting to kill BrowserManager with pid 2892. Display PID: 2901 | Display Port: 1009 | Browser PID: 2916
+2019-06-14 08:46:32,960 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: Geckodriver process already killed.
+2019-06-14 08:46:32,961 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 2: during_init=False | profile_archive_dir=None
+2019-06-14 08:46:33,110 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Sending the shutdown signal to the LocalAggregator listener process...
+2019-06-14 08:46:34,014 - MainProcess[MainThread] - BaseAggregator       - INFO    : Received shutdown signal!
+2019-06-14 08:46:37,050 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : LocalAggregator took 3.93855500221 seconds to close.
+2019-06-14 08:50:14,213 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: Spawn attempt 0 
+2019-06-14 08:50:14,757 - MainProcess[MainThread] - deploy_firefox       - DEBUG   : BROWSER 3: OpenWPM Firefox extension loaded
+2019-06-14 08:50:19,327 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:50:22,460 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477016275	geckodriver	INFO	Listening on 127.0.0.1:48683
+2019-06-14 08:50:22,461 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477017822	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ruGrTelOSarS
+2019-06-14 08:50:22,461 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477017885	geckodriver::marionette	INFO	Starting browser /home/huyvo/Documents/openwpm/firefox-bin/firefox-bin with args []
+2019-06-14 08:50:22,462 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477017947	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32781
+2019-06-14 08:50:22,462 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022026	addons.manager	DEBUG	Application has been upgraded
+2019-06-14 08:50:22,462 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022070	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+2019-06-14 08:50:22,463 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022072	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+2019-06-14 08:50:22,463 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022076	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+2019-06-14 08:50:22,463 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022080	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+2019-06-14 08:50:22,463 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022084	addons.manager	DEBUG	Starting provider: XPIProvider
+2019-06-14 08:50:22,464 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022086	addons.xpi	DEBUG	startup
+2019-06-14 08:50:22,464 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022088	addons.xpi	INFO	Mapping @openwpm to /tmp/rust_mozprofile.ruGrTelOSarS/extensions/@openwpm
+2019-06-14 08:50:22,464 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022090	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2019-06-14 08:50:22,464 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022092	addons.xpi	INFO	Mapping aushelper@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:50:22,465 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022094	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:50:22,471 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022096	addons.xpi	INFO	Mapping webcompat@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:50:22,471 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022096	addons.xpi	INFO	Mapping firefox@getpocket.com to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:50:22,471 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022102	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+2019-06-14 08:50:22,472 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022116	addons.xpi	DEBUG	checkForChanges
+2019-06-14 08:50:22,472 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022116	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2019-06-14 08:50:22,472 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022118	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+2019-06-14 08:50:22,473 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022120	addons.xpi	DEBUG	New add-on @openwpm in app-profile
+2019-06-14 08:50:22,473 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022122	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2019-06-14 08:50:22,474 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022126	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+2019-06-14 08:50:22,476 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022128	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2019-06-14 08:50:22,480 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022130	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+2019-06-14 08:50:22,480 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022130	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2019-06-14 08:50:22,481 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022132	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+2019-06-14 08:50:22,481 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022132	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2019-06-14 08:50:22,483 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022134	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+2019-06-14 08:50:22,483 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022134	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2019-06-14 08:50:22,484 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022134	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+2019-06-14 08:50:22,488 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022136	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2019-06-14 08:50:22,489 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022136	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"@openwpm":{"d":"/tmp/rust_mozprofile.ruGrTelOSarS/extensions/@openwpm","st":1560477017000,"mt":1560477017000}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi","st":1558299443000},"e10srollout@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","st":1558299443000},"webcompat@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi","st":1558299443000},"firefox@getpocket.com":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi","st":1558299443000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1558299443000}}}
+2019-06-14 08:50:22,489 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022162	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.ruGrTelOSarS/extensions.json
+2019-06-14 08:50:22,490 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022164	addons.xpi-utils	DEBUG	New add-on @openwpm installed in app-profile
+2019-06-14 08:50:22,490 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+2019-06-14 08:50:22,490 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022196	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,490 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022198	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+2019-06-14 08:50:22,493 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022206	DeferredSave.extensions.json	DEBUG	Starting timer
+2019-06-14 08:50:22,493 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022234	DeferredSave.extensions.json	DEBUG	Starting write
+2019-06-14 08:50:22,494 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022244	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,494 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022244	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+2019-06-14 08:50:22,495 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022244	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+2019-06-14 08:50:22,495 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022252	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,503 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022254	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+2019-06-14 08:50:22,504 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022264	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,504 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022264	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+2019-06-14 08:50:22,504 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022278	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,505 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022278	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022286	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022288	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022288	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022298	addons.xpi	DEBUG	Loading bootstrap scope from /tmp/rust_mozprofile.ruGrTelOSarS/extensions/@openwpm
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022420	addons.xpi	DEBUG	Calling bootstrap method install on @openwpm version 0.0.1
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022422	addons.xpi-utils	DEBUG	Make addon app-profile:@openwpm visible
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022432	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022432	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022434	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+2019-06-14 08:50:22,518 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022434	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022440	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022440	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022442	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022442	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022442	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022442	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022448	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.10
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022448	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022450	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022452	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022452	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022452	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022452	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022454	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022458	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+2019-06-14 08:50:22,519 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022458	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+2019-06-14 08:50:22,520 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022458	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:50:22,520 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022458	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,520 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022458	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+2019-06-14 08:50:22,664 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022460	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:50:22,665 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022466	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+2019-06-14 08:50:22,665 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022466	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+2019-06-14 08:50:22,665 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022466	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:50:22,665 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022468	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,666 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022468	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+2019-06-14 08:50:22,666 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022468	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:50:22,666 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022468	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,666 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022468	addons.xpi	DEBUG	Updating XPIState for {"id":"@openwpm","syncGUID":"{703a6c13-0448-44e8-9a95-7c5578e9fb81}","location":"app-profile","version":"0.0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"openwpm","description":"Extension with socket interface into OpenWPM","creator":"Steven Englehardt","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/rust_mozprofile.ruGrTelOSarS/extensions/@openwpm","installDate":1560477017000,"updateDate":1560477017000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":84527,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:50:22,666 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022468	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2019-06-14 08:50:22,666 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022470	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{897d82f2-8017-45cc-85ff-91a484c72499}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:50:22,666 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022472	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2019-06-14 08:50:22,667 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022472	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{404f0c68-c594-4dae-ab89-2e3fc2902893}","location":"app-system-defaults","version":"1.10","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8145,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:50:22,667 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022472	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2019-06-14 08:50:22,667 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022472	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{837affe7-a1d0-4158-8cea-3eb99b9c896b}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:50:22,667 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022472	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2019-06-14 08:50:22,667 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022474	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{aeab581f-c408-47db-8308-1dc643851953}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:50:22,667 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022474	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2019-06-14 08:50:22,668 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022476	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{c965bd89-8262-4a02-96a8-d8a67e75561c}","location":"app-global","version":"52.9.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.9.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+2019-06-14 08:50:22,668 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022476	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2019-06-14 08:50:22,669 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022478	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:50:22,671 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022478	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:50:22,672 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022478	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+2019-06-14 08:50:22,672 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022478	addons.xpi-utils	DEBUG	Updating add-on states
+2019-06-14 08:50:22,672 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022484	addons.xpi-utils	DEBUG	Writing add-ons list
+2019-06-14 08:50:22,673 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022498	addons.xpi	DEBUG	Registering manifest for /tmp/rust_mozprofile.ruGrTelOSarS/extensions/@openwpm
+2019-06-14 08:50:22,674 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022540	addons.xpi	DEBUG	Calling bootstrap method startup on @openwpm version 0.0.1
+2019-06-14 08:50:22,674 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022590	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:50:22,675 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022594	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+2019-06-14 08:50:22,675 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022594	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:50:22,675 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022596	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+2019-06-14 08:50:22,675 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022598	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:50:22,676 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022614	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+2019-06-14 08:50:22,676 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022640	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:50:22,676 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022642	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+2019-06-14 08:50:22,676 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022646	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+2019-06-14 08:50:22,677 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022646	addons.manager	DEBUG	Provider finished startup: XPIProvider
+2019-06-14 08:50:22,677 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022646	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+2019-06-14 08:50:22,677 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022646	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+2019-06-14 08:50:22,677 - MainProcess[log-interceptor-3] - selenium_firefox     - DEBUG   : BROWSER 3: driver: 1560477022646	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+2019-06-14 08:50:24,518 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:50:29,538 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:50:34,557 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:50:39,673 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:50:41,762 - MainProcess[MainThread] - FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2019-06-14 08:50:42,462 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: Looking for extension port information in /tmp/rust_mozprofile.ruGrTelOSarS/
+2019-06-14 08:50:42,462 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: Connecting to extension on port 43091
+2019-06-14 08:50:42,463 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: BrowserManager ready.
+2019-06-14 08:50:42,466 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: Browser spawn sucessful!
+2019-06-14 08:50:44,793 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:50:49,893 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:50:51,226 - MainProcess[MainThread] - TaskManager          - INFO    : 
+
+OpenWPM Version: v0.8.0-273-g69c773b
+Firefox Version: 52.9.0
+
+========== Manager Configuration ==========
+{
+  "aggregator_address": [
+    "127.0.0.1",
+    55451
+  ],
+  "data_directory": "../database/requestdata3/",
+  "database_name": "../database/requestdata3/crawl-data.sqlite",
+  "failure_limit": null,
+  "log_directory": "../database/requestdata3/",
+  "log_file": "../database/requestdata3/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    35289
+  ],
+  "num_browsers": 1,
+  "output_format": "local",
+  "screenshot_path": "../database/requestdata3/screenshots",
+  "source_dump_path": "../database/requestdata3/sources",
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "crawl_id": 0,
+  "adblock-plus": 1,
+  "bot_mitigation": 2,
+  "browser": 3,
+  "cookie_instrument": 4,
+  "disable_flash": 5,
+  "disconnect": 6,
+  "donottrack": 7,
+  "extension_enabled": 8,
+  "ghostery": 9,
+  "headless": 10,
+  "http_instrument": 11,
+  "https-everywhere": 12,
+  "js_instrument": 13,
+  "prefs": 14,
+  "random_attributes": 15,
+  "save_all_content": 16,
+  "save_javascript": 17,
+  "tp_cookies": 18,
+  "tracking-protection": 19,
+  "ublock-origin": 20
+}
+
+  0  1      2      3        4      5      6      7      8     9      10    11    12     13     14    15     16     17     18      19     20
+---  -----  -----  -------  -----  -----  -----  -----  ----  -----  ----  ----  -----  -----  ----  -----  -----  -----  ------  -----  -----
+  3  False  False  firefox  False  False  False  False  True  False  True  True  False  False  {}    False  False  False  always  False  False
+
+========== Input profile tar files ==========
+  No profile tar files specified
+
+========== Output (archive) profile dirs ==========
+  No profile archive directories specified
+
+
+2019-06-14 08:50:51,241 - MainProcess[MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2019-06-14 08:50:51,676 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: Joining command thread
+2019-06-14 08:50:51,723 - MainProcess[MainThread] - BrowserManager       - INFO    : BROWSER 3: EXECUTING COMMAND: ('GET', 'http://wunmanchishome.com\n', 0, 3)
+2019-06-14 08:50:54,357 - MainProcess[MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 3
+2019-06-14 08:50:55,600 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 1
+2019-06-14 08:51:00,639 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:51:05,650 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:51:07,872 - MainProcess[MainThread] - BrowserManager       - INFO    : BROWSER 3: Crash in driver, restarting browser manager 
+ Traceback (most recent call last):
+  File "/home/huyvo/Documents/openwpm/automation/BrowserManager.py", line 407, in BrowserManager
+    browser_params, manager_params, extension_socket)
+  File "/home/huyvo/Documents/openwpm/automation/Commands/command_executor.py", line 15, in execute_command
+    extension_socket=extension_socket)
+  File "/home/huyvo/Documents/openwpm/automation/Commands/browser_commands.py", line 123, in get_website
+    webdriver.get(url)
+  File "/home/huyvo/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/huyvo/.local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/home/huyvo/.local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&u=http%3A//wunmanchishome.com/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20find%20the%20server%20at%20wunmanchishome.com.
+
+
+2019-06-14 08:51:07,883 - MainProcess[Thread-2  ] - TaskManager          - INFO    : BROWSER 3: Received failure status while executing command: GET
+2019-06-14 08:51:07,937 - MainProcess[Thread-2  ] - TaskManager          - DEBUG   : BROWSER 3: Browser restart required
+2019-06-14 08:51:09,969 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: 18.291803 seconds to join command thread
+2019-06-14 08:51:09,970 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: Killing browser manager...
+2019-06-14 08:51:09,974 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: Attempting to kill BrowserManager with pid 4117. Display PID: 4126 | Display Port: 1008 | Browser PID: 4139
+2019-06-14 08:51:10,083 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: Geckodriver process already killed.
+2019-06-14 08:51:10,084 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 3: during_init=False | profile_archive_dir=None
+2019-06-14 08:51:10,125 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Sending the shutdown signal to the LocalAggregator listener process...
+2019-06-14 08:51:10,675 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:51:10,676 - MainProcess[MainThread] - BaseAggregator       - INFO    : Received shutdown signal!
+2019-06-14 08:51:13,744 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : LocalAggregator took 3.61746811867 seconds to close.
+2019-06-14 08:55:39,054 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: Spawn attempt 0 
+2019-06-14 08:55:39,483 - MainProcess[MainThread] - deploy_firefox       - DEBUG   : BROWSER 4: OpenWPM Firefox extension loaded
+2019-06-14 08:55:44,156 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:55:44,277 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477339554	geckodriver	INFO	Listening on 127.0.0.1:47713
+2019-06-14 08:55:44,277 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477341020	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.UmOeK22rjUDF
+2019-06-14 08:55:44,278 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477341063	geckodriver::marionette	INFO	Starting browser /home/huyvo/Documents/openwpm/firefox-bin/firefox-bin with args []
+2019-06-14 08:55:44,278 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477341072	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40549
+2019-06-14 08:55:44,278 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343346	addons.manager	DEBUG	Application has been upgraded
+2019-06-14 08:55:44,278 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343466	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+2019-06-14 08:55:44,278 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343468	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+2019-06-14 08:55:44,279 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343490	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+2019-06-14 08:55:44,279 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343508	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+2019-06-14 08:55:44,279 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343512	addons.manager	DEBUG	Starting provider: XPIProvider
+2019-06-14 08:55:44,279 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343514	addons.xpi	DEBUG	startup
+2019-06-14 08:55:44,279 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343516	addons.xpi	INFO	Mapping @openwpm to /tmp/rust_mozprofile.UmOeK22rjUDF/extensions/@openwpm
+2019-06-14 08:55:44,279 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343516	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2019-06-14 08:55:44,280 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343520	addons.xpi	INFO	Mapping aushelper@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:55:44,280 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343520	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:55:44,280 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343522	addons.xpi	INFO	Mapping webcompat@mozilla.org to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:55:44,280 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343524	addons.xpi	INFO	Mapping firefox@getpocket.com to /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:55:44,280 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343528	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+2019-06-14 08:55:44,280 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343530	addons.xpi	DEBUG	checkForChanges
+2019-06-14 08:55:44,280 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343530	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2019-06-14 08:55:44,280 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343532	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+2019-06-14 08:55:44,281 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343532	addons.xpi	DEBUG	New add-on @openwpm in app-profile
+2019-06-14 08:55:44,281 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343534	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2019-06-14 08:55:44,281 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343560	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+2019-06-14 08:55:44,281 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343560	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2019-06-14 08:55:44,281 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343562	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+2019-06-14 08:55:44,281 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343564	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2019-06-14 08:55:44,281 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343564	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+2019-06-14 08:55:44,282 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343564	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2019-06-14 08:55:44,282 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343566	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+2019-06-14 08:55:44,282 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343568	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2019-06-14 08:55:44,282 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343570	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+2019-06-14 08:55:44,282 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343570	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2019-06-14 08:55:44,282 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343570	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"@openwpm":{"d":"/tmp/rust_mozprofile.UmOeK22rjUDF/extensions/@openwpm","st":1560477341000,"mt":1560477341000}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi","st":1558299443000},"e10srollout@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","st":1558299443000},"webcompat@mozilla.org":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi","st":1558299443000},"firefox@getpocket.com":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi","st":1558299443000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1558299443000}}}
+2019-06-14 08:55:44,282 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343602	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.UmOeK22rjUDF/extensions.json
+2019-06-14 08:55:44,282 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343604	addons.xpi-utils	DEBUG	New add-on @openwpm installed in app-profile
+2019-06-14 08:55:44,283 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+2019-06-14 08:55:44,283 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343660	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,283 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343664	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+2019-06-14 08:55:44,283 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343670	DeferredSave.extensions.json	DEBUG	Starting timer
+2019-06-14 08:55:44,283 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343722	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,283 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343722	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+2019-06-14 08:55:44,283 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343818	DeferredSave.extensions.json	DEBUG	Starting write
+2019-06-14 08:55:44,283 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343874	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,284 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343874	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+2019-06-14 08:55:44,287 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343882	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+2019-06-14 08:55:44,287 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343898	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,287 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343898	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+2019-06-14 08:55:44,287 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343910	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,287 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343910	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+2019-06-14 08:55:44,287 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343926	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,287 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343928	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2019-06-14 08:55:44,288 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343928	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2019-06-14 08:55:44,288 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477343966	addons.xpi	DEBUG	Loading bootstrap scope from /tmp/rust_mozprofile.UmOeK22rjUDF/extensions/@openwpm
+2019-06-14 08:55:44,288 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344188	addons.xpi	DEBUG	Calling bootstrap method install on @openwpm version 0.0.1
+2019-06-14 08:55:44,288 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344222	addons.xpi-utils	DEBUG	Make addon app-profile:@openwpm visible
+2019-06-14 08:55:44,288 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344234	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:55:44,288 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344234	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,288 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344236	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+2019-06-14 08:55:44,288 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344236	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:55:44,289 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344240	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+2019-06-14 08:55:44,289 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344240	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+2019-06-14 08:55:44,289 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344240	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:55:44,289 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344240	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,289 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344242	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+2019-06-14 08:55:44,289 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344242	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:55:44,289 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344248	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.10
+2019-06-14 08:55:44,289 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344252	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:55:44,290 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344254	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:55:44,290 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344254	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+2019-06-14 08:55:44,290 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344254	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:55:44,290 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344254	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,290 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344254	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+2019-06-14 08:55:44,290 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344264	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:55:44,290 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344274	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+2019-06-14 08:55:44,290 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344274	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+2019-06-14 08:55:44,291 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344274	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:55:44,291 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344274	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,291 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344276	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+2019-06-14 08:55:44,579 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344276	addons.xpi	DEBUG	Loading bootstrap scope from /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:55:44,582 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344310	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+2019-06-14 08:55:44,583 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344310	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+2019-06-14 08:55:44,583 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344310	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:55:44,583 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344312	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,583 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344320	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+2019-06-14 08:55:44,583 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344322	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:55:44,584 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344322	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,584 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344322	addons.xpi	DEBUG	Updating XPIState for {"id":"@openwpm","syncGUID":"{6b3d2cb1-0bd3-480d-87c7-b3291c304c78}","location":"app-profile","version":"0.0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"openwpm","description":"Extension with socket interface into OpenWPM","creator":"Steven Englehardt","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/tmp/rust_mozprofile.UmOeK22rjUDF/extensions/@openwpm","installDate":1560477341000,"updateDate":1560477341000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":84527,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:55:44,585 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344322	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2019-06-14 08:55:44,585 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344328	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{a81355de-7220-462f-875f-b5f8f0b4a131}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:55:44,585 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344328	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2019-06-14 08:55:44,585 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344328	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{b5591771-dc3b-4dff-88f2-8d10d3e12618}","location":"app-system-defaults","version":"1.10","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8145,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:55:44,585 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344328	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2019-06-14 08:55:44,585 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344330	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{ac9c3921-a19b-4795-8309-6ca445a02fb8}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:55:44,585 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344330	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2019-06-14 08:55:44,586 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344330	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{f6d717db-6ccc-4524-a8e8-af9ebd809640}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2019-06-14 08:55:44,586 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344332	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2019-06-14 08:55:44,586 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344336	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{9b4eec61-a9d6-45e9-a690-6296fb8ba2d9}","location":"app-global","version":"52.9.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/huyvo/Documents/openwpm/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1558299443000,"updateDate":1558299443000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.9.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+2019-06-14 08:55:44,586 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344336	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2019-06-14 08:55:44,586 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344338	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2019-06-14 08:55:44,586 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344338	DeferredSave.extensions.json	DEBUG	Save changes
+2019-06-14 08:55:44,586 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344338	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+2019-06-14 08:55:44,589 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344338	addons.xpi-utils	DEBUG	Updating add-on states
+2019-06-14 08:55:44,589 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344340	addons.xpi-utils	DEBUG	Writing add-ons list
+2019-06-14 08:55:44,589 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344368	addons.xpi	DEBUG	Registering manifest for /tmp/rust_mozprofile.UmOeK22rjUDF/extensions/@openwpm
+2019-06-14 08:55:44,589 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344370	addons.xpi	DEBUG	Calling bootstrap method startup on @openwpm version 0.0.1
+2019-06-14 08:55:44,589 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344470	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2019-06-14 08:55:44,590 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344472	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+2019-06-14 08:55:44,590 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344474	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2019-06-14 08:55:44,590 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344512	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+2019-06-14 08:55:44,590 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344514	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2019-06-14 08:55:44,590 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344546	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+2019-06-14 08:55:44,590 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344550	addons.xpi	DEBUG	Registering manifest for /home/huyvo/Documents/openwpm/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2019-06-14 08:55:44,590 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344550	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+2019-06-14 08:55:44,591 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344564	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+2019-06-14 08:55:44,591 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344574	addons.manager	DEBUG	Provider finished startup: XPIProvider
+2019-06-14 08:55:44,591 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344574	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+2019-06-14 08:55:44,599 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344576	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+2019-06-14 08:55:44,600 - MainProcess[log-interceptor-4] - selenium_firefox     - DEBUG   : BROWSER 4: driver: 1560477344576	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+2019-06-14 08:55:50,050 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:55:55,149 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:55:58,891 - MainProcess[MainThread] - FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2019-06-14 08:56:00,205 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:56:01,512 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: Looking for extension port information in /tmp/rust_mozprofile.UmOeK22rjUDF/
+2019-06-14 08:56:01,900 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: Connecting to extension on port 41609
+2019-06-14 08:56:01,910 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: BrowserManager ready.
+2019-06-14 08:56:01,925 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: Browser spawn sucessful!
+2019-06-14 08:56:05,429 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:56:10,508 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:56:12,609 - MainProcess[MainThread] - TaskManager          - INFO    : 
+
+OpenWPM Version: v0.8.0-273-g69c773b
+Firefox Version: 52.9.0
+
+========== Manager Configuration ==========
+{
+  "aggregator_address": [
+    "127.0.0.1",
+    51925
+  ],
+  "data_directory": "../database/requestdata3/",
+  "database_name": "../database/requestdata3/crawl-data.sqlite",
+  "failure_limit": null,
+  "log_directory": "../database/requestdata3/",
+  "log_file": "../database/requestdata3/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    32873
+  ],
+  "num_browsers": 1,
+  "output_format": "local",
+  "screenshot_path": "../database/requestdata3/screenshots",
+  "source_dump_path": "../database/requestdata3/sources",
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "crawl_id": 0,
+  "adblock-plus": 1,
+  "bot_mitigation": 2,
+  "browser": 3,
+  "cookie_instrument": 4,
+  "disable_flash": 5,
+  "disconnect": 6,
+  "donottrack": 7,
+  "extension_enabled": 8,
+  "ghostery": 9,
+  "headless": 10,
+  "http_instrument": 11,
+  "https-everywhere": 12,
+  "js_instrument": 13,
+  "prefs": 14,
+  "random_attributes": 15,
+  "save_all_content": 16,
+  "save_javascript": 17,
+  "tp_cookies": 18,
+  "tracking-protection": 19,
+  "ublock-origin": 20
+}
+
+  0  1      2      3        4      5      6      7      8     9      10    11    12     13     14    15     16     17     18      19     20
+---  -----  -----  -------  -----  -----  -----  -----  ----  -----  ----  ----  -----  -----  ----  -----  -----  -----  ------  -----  -----
+  4  False  False  firefox  False  False  False  False  True  False  True  True  False  False  {}    False  False  False  always  False  False
+
+========== Input profile tar files ==========
+  No profile tar files specified
+
+========== Output (archive) profile dirs ==========
+  No profile archive directories specified
+
+
+2019-06-14 08:56:12,611 - MainProcess[MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2019-06-14 08:56:12,714 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: Joining command thread
+2019-06-14 08:56:12,822 - MainProcess[MainThread] - BrowserManager       - INFO    : BROWSER 4: EXECUTING COMMAND: ('GET', 'http://xrecruitingx.gq\n', 0, 4)
+2019-06-14 08:56:14,016 - MainProcess[MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 4
+2019-06-14 08:56:16,032 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:56:20,043 - MainProcess[MainThread] - BrowserManager       - INFO    : BROWSER 4: EXECUTING COMMAND: ('DUMP_PROFILE_COOKIES', 1560477372.721592, 4)
+2019-06-14 08:56:21,664 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2019-06-14 08:56:24,115 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: 11.394024 seconds to join command thread
+2019-06-14 08:56:24,116 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: Killing browser manager...
+2019-06-14 08:56:24,116 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: Attempting to kill BrowserManager with pid 4622. Display PID: 4643 | Display Port: 1009 | Browser PID: 4652
+2019-06-14 08:56:24,170 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: Geckodriver process already killed.
+2019-06-14 08:56:24,170 - MainProcess[MainThread] - BrowserManager       - DEBUG   : BROWSER 4: during_init=False | profile_archive_dir=None
+2019-06-14 08:56:24,227 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : Sending the shutdown signal to the LocalAggregator listener process...
+2019-06-14 08:56:24,716 - MainProcess[MainThread] - BaseAggregator       - INFO    : Received shutdown signal!
+2019-06-14 08:56:27,775 - MainProcess[MainThread] - BaseAggregator       - DEBUG   : LocalAggregator took 3.54686284065 seconds to close.
